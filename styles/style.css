@@ -205,3 +205,78 @@ body {
   padding-top: 48px;
 }
 /* ------venue section ends here---- */
+/* ------coming section ends here---- */
+.coming {
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto 120px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coming-description h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+}
+.coming-description h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.coming-description p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 80%;
+}
+
+.coming-image {
+  width: 463px;
+  height: 463px;
+
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 100%;
+  text-align: center;
+  background-image: url("../images/family.png");
+  background-position: center;
+  background-size: 380px 380px;
+  background-repeat: no-repeat;
+  margin: 50px;
+}
+.coming-year h2 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.coming-year p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 43px;
+}
+/* .coming-image img {
+  width: 400px;
+  height: 400px;
+} */
+/* ------coming section starts here---- */
