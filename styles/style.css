@@ -205,7 +205,7 @@ body {
   padding-top: 48px;
 }
 /* ------venue section ends here---- */
-/* ------coming section ends here---- */
+/* ------coming section starts here---- */
 .coming {
   width: 1320px;
   height: 463px;
@@ -275,8 +275,68 @@ body {
   text-align: left;
   padding-bottom: 43px;
 }
-/* .coming-image img {
-  width: 400px;
-  height: 400px;
-} */
-/* ------coming section starts here---- */
+
+/* ------coming section ends here---- */
+/* ------sale section starts here---- */
+.sale {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 1320px;
+  height: 800px;
+  margin: 0 auto 120px auto;
+  position: relative;
+}
+.sale-description {
+  text-align: center;
+}
+.sale-image {
+  position: absolute;
+  top: 100%;
+}
+.sale-image .fireworks {
+  position: absolute;
+  bottom: 120%;
+  width: 350px;
+  height: 350px;
+}
+.discount {
+  position: absolute;
+  left: 70%;
+  bottom: 100%;
+}
+.sale-description span {
+  color: #ff0000;
+}
+.sale-description h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sale-description h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sale-description p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 60%;
+  padding-left: 126px;
+  padding-right: 126px;
+}
+
+/* ------sale section ends here---- */
