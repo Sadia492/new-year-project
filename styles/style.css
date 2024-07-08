@@ -384,5 +384,72 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  padding-bottom: 500px;
 }
+
 /* ------portfolio section ends here---- */
+/* ------newsletter section starts here---- */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1320px;
+  height: 616px;
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  margin: 0 auto 120px auto;
+}
+.newsletter-image {
+  width: 150px;
+  height: 150px;
+}
+.newsletter h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 46px 0 22px 0;
+}
+.newsletter p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 48px;
+}
+::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.newsletter input[type="email"] {
+  width: 550px;
+  height: 72px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+}
+.newsletter input[type="submit"] {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+}
+
+/* ------newsletter section ends here---- */
+/* ------footer section starts here---- */
+/* ------footer section ends here---- */
